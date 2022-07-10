@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Globales */
+
+body{
+    background-color: rgb(53, 53, 53);
+    height: 100%;
+    color: #bdc1c6;
+    font-family: Roboto, "Ubuntu", Arial, sans-serif;
+    font-size: 81.25%;
+    
+}
+
+nav{
+    height: 48px;
+    padding: 9px;
+}
+
+ul{
+    display: flex;
+    gap: 13px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.puntos{
+    padding: 8px 10px;
+}
+
+.puntos:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+
+li.link_bar:hover{
+    cursor: pointer;
+    text-decoration: underline  ;
+}
+
+
+
+
+
+.contenido_principal{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+
+.contenedor_imagen{
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.barra_navegacion{
+    display: flex;
+    border: none;
+    border-radius: 40px;
+    gap: 5px;
+    background-color: #e7e9eb;
+    width: 561px;
+    padding: 10px;
+    
+}
+
+.barra_busqueda{
+    background-color: #e7e9eb;
+    border: none;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+
+}
+
+/* li.boton{
+    height: 100px;
+    width: 150px;
+} */
+
+.boton_sesion{
+    color: #272727;
+    background-color: #8ab4f8;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boton_sesion:hover{
+    background-color: white;
+}
+    
+.acceso_directo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.acceso{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.link_agregar_otro{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+    color: white;
+    
+}
+.link_agregar_otro:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+.parrafo_agregar_otro{
+    padding-top: 18px;
+}
+
+.acceso:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+.imagen_acceso{
+    background-color: rgb(44, 41, 41);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.link_acceso{
+    
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+.parrafo_link_youtube{
+    padding-top: 20px;
+}
+.parrafo_link{
+    padding-top: 15px;
+}
